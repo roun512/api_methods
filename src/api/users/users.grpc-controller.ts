@@ -7,7 +7,6 @@ import {
   UsersServiceControllerMethods,
 } from "./entities/user.grpc-entities";
 import { UsersService } from "./users.service";
-import { Metadata } from "@grpc/grpc-js";
 
 // protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --experimental_allow_proto3_optional  --ts_proto_out=. --ts_proto_opt=nestJs=true --ts_proto_opt=addGrpcMetadata=true  ./src/api/users/user.proto
 
